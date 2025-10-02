@@ -56,7 +56,6 @@
             border-top: 2px solid #cccccc;
         }
 
-        /* Tiêu đề phụ */
         .cv-subtitle {
             font-weight: 600;
             color: #2979FF;
