@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <style>
-        /* Background caro xanh pastel với ô 5cm và viền trắng 3px */
+        
         body {
             font-family: Arial, sans-serif;
             background-color: #E8F4FA; /* nền nhạt */
@@ -30,7 +30,6 @@
             padding: 2rem;
         }
 
-        /* Rectangle box */
         .cv-box {
             background: #fff;
             border-radius: 12px;
@@ -38,7 +37,6 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.08);
         }
 
-        /* Header của mỗi rectangle */
         .cv-box-header {
             display: flex;
             justify-content: space-between;
@@ -64,7 +62,6 @@
             color: #2979FF;
         }
 
-        /* Badge thời gian */
         .cv-badge {
             background: #E8F4FA;
             color: #2979FF;
@@ -75,14 +72,12 @@
             margin-left: 10px;
         }
 
-        /* Chức vụ */
         .cv-role {
             font-weight: 600;
             margin: 4px 0;
             color: black;
         }
 
-        /* Tên lớn */
         h2.cv-name {
             font-size: 32px;
             font-weight: 700;
@@ -90,7 +85,6 @@
             margin-bottom: 1rem;
         }
 
-        /* Ảnh cá nhân */
         .profile-img {
             width: 160px;
             height: 160px;
@@ -98,19 +92,16 @@
             object-fit: cover;
         }
 
-        /* Liên hệ */
         .contact-info p {
             margin: 2px 0;
         }
 
-        /* Toàn bộ nội dung chữ màu xám */
         .cv-box p, 
         .cv-box li {
             color: #878787;
             font-size: 15px;
         }
 
-        /* Gạch đầu dòng thay vì chấm */
         .cv-box ul {
             list-style: none;
             padding-left: 1rem;
@@ -133,16 +124,13 @@
 <body>
 <div class="container">
 
-    <!-- Rectangle thông tin cá nhân -->
     <div class="cv-box mb-5">
         <div class="row g-4 align-items-start">
             <!-- Ảnh -->
             <div class="col-md-3 text-center">
                 <img src="avata.jpg" alt="Ảnh cá nhân" class="profile-img">
             </div>
-            <!-- Thông tin liên hệ -->
             <div class="col-md-9">
-            	<!-- Tên -->
         		<h2 class="cv-name">TRƯƠNG NGỌC Ý NHI</h2>
         		<h7 style = "color: #2979FF; font-size: 15px">Nhân viên Phân tích Kinh doanh</h7><hr>
                 <div class="row">
@@ -161,7 +149,6 @@
         </div>
 		
 		<hr>
-        <!-- Mục tiêu nghề nghiệp -->
         <div class="mt-3 text-justify">
             <p>
                 “Với nền tảng kiến thức Công nghệ thông tin và tinh thần ham học hỏi, tôi mong muốn được tham gia vào các dự án phần mềm thực tế để rèn luyện kỹ năng và tích lũy kinh nghiệm. Mục tiêu lâu dài là trở thành lập trình viên chuyên nghiệp, có khả năng xây dựng các giải pháp sáng tạo, góp phần nâng cao hiệu quả hoạt động của doanh nghiệp.”
